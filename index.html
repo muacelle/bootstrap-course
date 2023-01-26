@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Course</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <div class="container">
+
+        <div id="carousel-div" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="d-block w-100" src="https://images.unsplash.com/photo-1580145481518-53f08e715fa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="https://images.unsplash.com/photo-1548595224-8c7ae4e20bf6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-div" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-div" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-div" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-div" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-div" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container pt-4 pb-4">
+        <div id="cards" class="row gx-3 gy-3">
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Quote
+                      </div>
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p>The smallest feline is a masterpiece.</p>
+                          <footer class="blockquote-footer">Leonardo Da Vinci</footer>
+                        </blockquote>
+                      </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                      Quote
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>There are two means of refuge from the miseries of life: music and cats.</p>
+                        <footer class="blockquote-footer">Albert Schweitzer</footer>
+                      </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                      Quote
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>I used to love dogs until I discovered cats.</p>
+                        <footer class="blockquote-footer">Nafisa Joseph</footer>
+                      </blockquote>
+                    </div>
+                </div>
+            </div>   
+
+        </div>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
